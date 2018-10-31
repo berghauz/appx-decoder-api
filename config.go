@@ -41,7 +41,7 @@ func init() {
 	flag.Parse()
 
 	if *help {
-		fmt.Printf("Available env variables:\nAD_INVENTORY_HOST: inventory host:port\nAD_LISTEN_HOST: application listen on host:port\n")
+		fmt.Printf("Available env variables:\nAD_INVENTORY_HOST: inventory host:port\nAD_LISTEN_HOST: application listen on host:port\nAD_DECODERS_PATH: path where are decoders stored\nAD_LOG_LEVEL: log level (info, debug. etc...)\nAD_LOG_PATH: path to log file\n")
 		os.Exit(0)
 	}
 
